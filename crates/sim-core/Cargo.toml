@@ -1,0 +1,8 @@
+[package]
+name = "sim-core"
+version = "0.1.0"
+edition = "2021"
+
+# The pure simulation logic. No UI, no web — just math we can test.
+# Dependencies stay empty for now; we'll add them as we need them.
+[dependencies]

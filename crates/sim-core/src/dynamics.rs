@@ -9,3 +9,9 @@
 //   - [ ] Test: at theta = PI (hanging), zero velocity, zero force, the angular
 //         acceleration is ~0 (it's at rest), and the sign matches "gravity
 //         pulls the pole toward theta = PI".
+
+use crate::state::{CartPoleParams, CartPoleState};
+
+pub fn derivative(s: &CartPoleState, p: &CartPoleParams, force: f64) -> CartPoleState {
+    CartPoleState { x: (), x_dot: (), theta: (), theta_dot: () }
+}
